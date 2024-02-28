@@ -89,8 +89,9 @@ export type CreateUserParams = {
     url: string
     organizer: {
       _id: string
-      firstName: string
-      lastName: string
+      firstName?: string
+      lastName?: string
+      username: string
     }
     category: {
       _id: string
